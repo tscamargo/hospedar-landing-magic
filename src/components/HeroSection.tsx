@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/lovable-uploads/86c9ff60-d6c0-4058-9965-b318a803d02c.png')] bg-cover bg-center bg-no-repeat brightness-75" />
+      <img 
+        src="/lovable-uploads/86c9ff60-d6c0-4058-9965-b318a803d02c.png"
+        alt="Background"
+        className="absolute inset-0 w-full h-full object-cover brightness-75"
+      />
       <div className="relative flex h-full items-center justify-center px-4">
         <div className="text-center">
           <motion.h1 
